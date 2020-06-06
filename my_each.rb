@@ -1,5 +1,5 @@
-def my_each(array) do |word|
-  each_word = word.size
+def my_each(array) 
+  i = 0
   while i < collection.length
     yield(collection[i])
     i = i + 1
