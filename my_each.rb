@@ -1,4 +1,5 @@
-def my_each(word) |word|
+def my_each(word) do |word|
+  
   while i < collection.length
     yield(collection[i])
     i = i + 1
