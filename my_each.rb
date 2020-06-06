@@ -1,5 +1,5 @@
 def my_each(word)
-  counter = 1
+  each_word = word.size
   while i < collection.length
     yield(collection[i])
     i = i + 1
